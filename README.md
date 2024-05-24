@@ -34,3 +34,15 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+
+
+1 - create a projet {get the command}
+2 - run the project to make sure it works
+3 - run the build
+4 - create the repository
+5 - deploy on vercel
+6 - install tailwind css intellisense extension on VS code
+7 - install the preatti by npm. npm install --save-dev --save-exact prettier
+8 - create the empty pretti file. node --eval "fs.writeFileSync('.prettierrc','{}\n')"
+9 - install plugin - npm install -D prettier prettier-plugin-tailwindcss
