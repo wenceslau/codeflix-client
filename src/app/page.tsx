@@ -1,9 +1,11 @@
 import Image from "next/image";
 import { Inter } from "next/font/google";
+import Header from "./components/Header";
 
 export default function Home() {
   return (
     <div className="relative h-screen overflow-hidden bg-gradient-to-b lg:h-[140vh]">
+      <Header />
 
       <main className="relative pb-24 pl-4 lg:pl-16">
 
