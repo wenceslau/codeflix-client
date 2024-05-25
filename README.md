@@ -49,4 +49,5 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 10- install package for tests - yarn add -D jest jest-environment-jsdom @testing-library/react @testing-library/jest-dom
 11- create jest.config.mjs
 12- install jest types - npm i --save-dev @types/jest
-
+13- install tailwind scroll bar hide - yarn add tailwind-scrollbar-hide
+14- install icons - yarn add  @heroicons/react
