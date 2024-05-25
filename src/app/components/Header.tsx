@@ -13,19 +13,46 @@ export default function Header() {
             justify-between 
             px-4 
             py-4 
+            transition-all
             lg:px-10
             lg:py-6
-            bg-blue-500"
-
+           "
         >
-            <img src="/logo.svg" alt="CodeFlix" width={120} height={120} />
 
-            <ul>
-                <li >Home</li>
-                <li >Movies</li>
-                <li >Series</li>
-                <li>My List</li>
-            </ul>
+            <div className="
+            flex
+            items-center
+            space-x-2
+            md:space-x-8
+            ">
+                <img src="/logo.svg" alt="CodeFlix" width={120} height={120} />
+
+                <ul className="hidden md:flex md:space-x-4">
+                    <li >Home</li>
+                    <li >Movies</li>
+                    <li >Series</li>
+                    <li>My List</li>
+                </ul>
+            </div>
+
+            <div className="
+             flex
+             items-center
+             space-x-4">
+
+                <p className="hidden cursor-not-allowed lg:inline">
+                    Kids
+                </p>
+                <img
+                    src="https://rb.gy/g1pwyx"
+                    alt=""
+                    className="cursor-pointer rounded"
+                />
+
+
+            </div>
+
+
 
         </header>
     )
