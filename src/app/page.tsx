@@ -1,5 +1,4 @@
 import Image from "next/image";
-import { Inter } from "next/font/google";
 import Header from "./components/Header";
 import { InformationCircleIcon } from "@heroicons/react/24/outline";
 import { PlayIcon } from "@heroicons/react/24/solid";
@@ -48,7 +47,18 @@ export default function Home() {
 
         </div>
 
+        <div>
+          {[1, 2, 3, 4, 5].map((index) => (
+            <Image
+              key={index}
+              src={`/item_${index}.png`}
+              alt="MAID"
+              fill={true}
+              className="rounded-lg"
+            />
+          ))}
 
+        </div>
 
       </main>
 
