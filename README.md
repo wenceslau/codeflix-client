@@ -37,7 +37,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 
 
-1 - create a projet {get the command}
+1 - create a projet {yarn create next-app}
 2 - run the project to make sure it works
 3 - run the build
 4 - create the repository
@@ -46,3 +46,6 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 7 - install the preatti by npm. npm install --save-dev --save-exact prettier
 8 - create the empty pretti file. node --eval "fs.writeFileSync('.prettierrc','{}\n')"
 9 - install plugin - npm install -D prettier prettier-plugin-tailwindcss
+10- install package for tests - yarn add -D jest jest-environment-jsdom @testing-library/react @testing-library/jest-dom
+11- create jest.config.mjs
+
