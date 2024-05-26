@@ -23,8 +23,7 @@ export const Banner = () => {
                 </h1>
 
                 <p className="text-shadow-md max-w-xs text-xs md:max-w-lg md:text-lg lg:max-w-2xl">
-                    After a family tragedy turns her life upside down, 16-year-old high schooler Tooru Honda takes matters into her own hands and moves out...
-                    into a tent! Unfortunately for her, she pitches her new home on private land belonging to the mysterious Souma clan, and it isn't long before the owners discover her secret. But, as Tooru quickly finds out when the family offers to take her in, the Soumas have a secret of their own--when hugged
+                    After fleeing an abusive relationship, a young mother finds a job cleaning houses as she fights to provide for her child and build them a better future.
                 </p>
 
             </div>
