@@ -51,3 +51,8 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 12- install jest types - npm i --save-dev @types/jest
 13- install tailwind scroll bar hide - yarn add tailwind-scrollbar-hide
 14- install icons - yarn add  @heroicons/react
+
+
+extensions
+
+- tailwind fold
