@@ -21,3 +21,11 @@ export const getUserDate = (): Promise<{ name: string; email: string }> => {
         }, 2000);
     });
 }
+
+export async function getUserById(id: number): Promise<any> {
+
+    const response = await fetch(`https://jsonplaceholder.typicode.com/users/${id}`);
+    const user = response.json();
+    return user;
+
+}
