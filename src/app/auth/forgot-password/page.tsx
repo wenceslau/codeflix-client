@@ -1,5 +1,7 @@
+import { ForgotPasswordForm } from '@/app/auth/forgot-password/ForgotPasswordForm';
+
 export default function ForgotPasswordPage() {
-  return <div>Forgot Password</div>;
+  return <ForgotPasswordForm />;
   // const [email, setEmail] = useState('');
   // const [loading, setLoading] = useState(false);
   // const [error, setError] = useState<string | null>(null);
