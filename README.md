@@ -35,23 +35,35 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
-
-
 1 - create a projet {yarn create next-app}
+
 2 - run the project to make sure it works
+
 3 - run the build
+
 4 - create the repository
+
 5 - deploy on vercel
+
 6 - install tailwind css intellisense extension on VS code
+
 7 - install the preatti by npm. npm install --save-dev --save-exact prettier
+
 8 - create the empty pretti file. node --eval "fs.writeFileSync('.prettierrc','{}\n')"
+
 9 - install plugin - npm install -D prettier prettier-plugin-tailwindcss
+
 10- install package for tests - yarn add -D jest jest-environment-jsdom @testing-library/react @testing-library/jest-dom
+
 11- create jest.config.mjs
+
 12- install jest types - npm i --save-dev @types/jest
+
 13- install tailwind scroll bar hide - yarn add tailwind-scrollbar-hide
+
 14- install icons - yarn add  @heroicons/react
 
+15- install zod for validations - yarn add zod
 
 extensions
 
