@@ -1,5 +1,3 @@
-import { opt } from 'ts-interface-checker';
-
 const API_URL = process.env.API_URL || 'http://localhost:3333';
 
 export interface ApiQueryParams {
@@ -39,8 +37,7 @@ export async function apiRequest(
     if (!response.ok) {
       throw new Error(`API request failed with status ${response.status}`);
     }
-    const data = await response.json();
-    return data;
+    return  await response.json();;
 
   } catch (error) {
     throw error;
