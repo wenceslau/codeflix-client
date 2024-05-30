@@ -22,11 +22,15 @@ export const searchMovies = async (
   genre: string = '',
   options: RequestOptions = {},
 ): Promise<Movies> => {
+
+  console.log("searchMovies", title, genre, options)
+
   return await apiRequest(
-    'movies',
+    `movies`,
     {
       title_like: encodeURIComponent(title),
       genres_like: encodeURIComponent(genre),
-    }
+    },
+    options,
   )
 }
