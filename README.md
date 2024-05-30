@@ -65,11 +65,9 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 15- install zod for validations - yarn add zod
 
-16- install JSON Server - npm install json-server
+16- install JSON Server - npm i json-server@0.17.4
 
 17- Run the json server in a diferent port - json-server --watch db.json -p 3333
-
-
 
 extensions
 
