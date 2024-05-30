@@ -69,6 +69,8 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 17- Run the json server in a diferent port - json-server --watch db.json -p 3333
 
+18- Install vidstack, video players npm i @vidstack/react@next or yarn add @vidstack/react@next
+
 extensions
 
 - tailwind fold
