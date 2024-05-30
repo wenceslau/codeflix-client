@@ -6,12 +6,12 @@ export interface ApiQueryParams {
 
 export interface RequestOptions {
   page?: number;
-  limit?: number;
+  _limit?: number;
 }
 
 export const defaultOptions: RequestOptions = {
   page: 1,
-  limit: 10,
+  _limit: 10,
 };
 
 export function buildQueryString(params: ApiQueryParams) {
