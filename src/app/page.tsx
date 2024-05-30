@@ -17,12 +17,12 @@ export default async function Home() {
 
 
   return (
-    <div className="relative h-screen overflow-hidden bg-gradient-to-b lg:h-[140vh]">
+    <div className="relative bg-gradient-to-b pb-8">
       <Header />
 
-      <main className="relative pb-24 pl-4 lg:pl-16">
+      <main className="relative overflow-y-scroll p-8 pb-20 scrollbar-hide lg:px-16 ">
         <Banner movie={featuredMovie} />
-        {movies.map((movie ) => (
+        {movies.map((movie) => (
           <MovieRow
             key={movie.sectionTitle}
             sectionTitle={movie.sectionTitle}
