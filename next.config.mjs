@@ -3,12 +3,11 @@ const nextConfig = {
   images: {
     domains: ['m.media-amazon.com'],
   },
-};
 
-module.exports = {
   experimental: {
     missingSuspenseWithCSRBailout: false,
   },
-}
+};
+
 
 export default nextConfig;
