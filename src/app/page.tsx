@@ -1,16 +1,18 @@
 import Header from "./components/Header";
 import { MovieRow } from "./components/MovieRow";
 import { Banner } from "./components/Banner";
-import { getFeaturedMovie, getMovieByGenre } from '@/app/services/MovieServive';
+import { getFeaturedMovie, getMoviesByGenre } from '@/app/services/MovieServive';
+// import { getFeaturedMovie, getMoviesByGenre } from '@/app/services/MovieQuery';
+
 
 export default async function Home() {
 
   const featuredMovie = await getFeaturedMovie('103');
 
-  const genres = ['Biography'];
+  const genres = ['Biography', 'Action', 'Drama', 'Comedy', 'Crime'];
 
   const movies = await Promise.all(genres.map(async genre => {
-    const movies = await getMovieByGenre(genre, { _limit: 8 });
+    const movies = await getMoviesByGenre(genre, { _limit: 8 });
     return { sectionTitle: genre, movies}
   })
   );

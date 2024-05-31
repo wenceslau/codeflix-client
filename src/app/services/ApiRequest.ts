@@ -32,10 +32,11 @@ export async function apiRequest(
 
     const mergedOptions: RequestOptions = { ...defaultOptions, ...options };
     const queryString = buildQueryString({...query, ...mergedOptions});
+    let input = `${API_URL}/${endpoint}${queryString}`;
 
-    console.log(`${API_URL}/${endpoint}${queryString}`);
+    console.log("apiRequest", input);
 
-    const response = await fetch(`${API_URL}/${endpoint}${queryString}`);
+    const response = await fetch(input);
     if (!response.ok) {
       throw new Error(`API request failed with status ${response.status}`);
     }
